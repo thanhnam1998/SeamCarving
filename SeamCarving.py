@@ -184,7 +184,7 @@ cv.imshow('img', img)
 it=img.copy()
 
 t,it=all_seam_carving(it,50)
-cv.imwrite('aaa.jpg',it)
+#cv.imwrite('aaa.jpg',it)
 
 cv.waitKey(0)
 cv.destroyAllWindows()
