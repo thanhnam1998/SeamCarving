@@ -251,7 +251,7 @@ print(end_RGB-start_RGB)
 
 #cv.imshow('gray_ver',img_gray_ver)
 cv.imshow('gray_result_'+str(scale),img_gray_hor)
-cv.imwrite('aaa.jpg',img_gray_hor)
+#cv.imwrite('aaa.jpg',img_gray_hor)
 #cv.imshow('RGB_ver',img_RGB_ver)
 #cv.imshow('RGB_result_'+str(scale),img_RGB_hor)
 cv.waitKey()
